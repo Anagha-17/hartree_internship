@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapercave.com/wp/wp3416333.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding :90px;
+  }
+  
+  .user-box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  .user-photo {
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('https://keepface.com/uploads/influencer/influencer_305954/channels/4fa8ea7ec24ac8f497fcee205ad0057d.jpg'); 
+  }
+  
+  .user-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .h3{
+    color:#f7f7f7
+  }

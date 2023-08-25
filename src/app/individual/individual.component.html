@@ -1,0 +1,16 @@
+
+<body>
+    <h1 class="h3">Employ info</h1>
+    <div class="user-box" *ngFor="let user of userDataList">
+    <h3>{{ user.firstName }} {{ user.lastName }}</h3>
+    <div><strong>Date of Birth:</strong> {{ user.dob }}</div>
+    <div><strong>Address:</strong> {{ user.address }}</div>
+    <div><strong>Social Media:</strong> {{ user.socialMedia }}</div>
+    <div><strong>Phone Number:</strong> {{ user.phoneNumber }}</div>
+    <div><strong>Email:</strong> {{ user.email }}</div>
+    <div class="user-photo">
+        <img *ngIf="user.photoUrl" [src]="user.photoUrl" alt="User Photo">
+      </div>  
+</div>
+  </body>
+  
